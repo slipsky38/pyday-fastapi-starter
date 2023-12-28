@@ -13,4 +13,4 @@ async def generate_name(starts_with:str = 'n', ends_with: str='a'):
         random_name = random.choice(filtered_names)
     else:
         random_name = random.choice(names)
-    return {"name": random_name}
+    return {"name": random_name} 
